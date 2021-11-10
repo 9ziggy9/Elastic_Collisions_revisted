@@ -49,7 +49,7 @@ void initialize_grid(bool grid[MAX_X][MAX_Y])
 			for(int j=0; j<MAX_Y; ++j)
 					grid[i][j] = unoccupied;
 
-	// randomly fill grid
+	// randomly fill grid.
 	for(int count=0; count<NUM; ++count)
 	{
 			X = rand() % (MAX_X - 2) + 1;
